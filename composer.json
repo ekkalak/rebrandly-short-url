@@ -1,0 +1,29 @@
+{
+  "name": "ekkalak/rebrandly-short-url",
+  "description": "PHP short url with Rebrandly",
+  "keywords": ["short-url", "rebrandly"],
+  "type": "library",
+  "require": {
+    "php": ">=5.6",
+    "guzzlehttp/guzzle": ">=6.5.1"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ekkalak",
+      "email": "ekkalak.sitotai@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "Ekkalak\\Rebrandly\\" : "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\" : "tests/"
+    }
+  }
+}
